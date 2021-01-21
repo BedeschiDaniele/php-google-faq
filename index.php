@@ -43,8 +43,15 @@ $faqs = [
   </head>
   <body>
     <div class="wrapper-80">
-
+      <?php
+        foreach ($faqs as $faq) {
+          foreach ($faq as $key => $value) { ?>
+            <h1><?php echo $value."<br>"?></h1>
+      <?php
+          }
+        }
+      ?>
+      <h1></h1>
     </div>
-
   </body>
 </html>
