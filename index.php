@@ -45,10 +45,16 @@ $faqs = [
     <div class="wrapper-80">
       <?php
         foreach ($faqs as $faq) {
-          foreach ($faq as $key => $value) { ?>
-            <h1><?php echo $value."<br>"?></h1>
-      <?php
-          }
+      ?>
+          <h1><?php echo $faq["question"]."<br>"?></h1>
+          <?php
+            foreach ($faq as $key => $value) {
+              if ($key=="answer") {
+          ?>
+            <p><?php echo $value."<br>"?></p>
+          <?php
+              }
+            }
         }
       ?>
       <h1></h1>
