@@ -24,13 +24,14 @@
 .right {
   font-size: 20px;
 }
-.right i:nth-child(1){
+.right a {
   margin-right: 15px;
+  color: black;
 }
 .header-bottom {
   margin: 20px 0px 10px 30px;
 }
-.header-bottom span {
+.header-bottom a {
   font-family: 'Google Sans',sans-serif;
   color: #5f6368;
   font-size: 12px;

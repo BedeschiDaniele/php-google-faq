@@ -55,16 +55,16 @@ $classe = "question";
           <span>Privacy e termini</span>
         </div>
         <div class="right">
-          <i class="fas fa-bars"></i>
+          <a href="#"><i class="fas fa-bars"></i></a>
           <i class="fas fa-user-circle"></i>
         </div>
       </div>
       <div class="header-bottom">
-        <span>Introduzione</span>
-        <span>Norme sulla privacy</span>
-        <span>Termini di servizio</span>
-        <span>Tecnologie</span>
-        <span>Domande frequenti</span>
+        <span><a href="#">Introduzione</a></span>
+        <span><a href="#">Norme sulla privacy</a></span>
+        <span><a href="#">Termini di servizio</a></span>
+        <span><a href="#">Tecnologie</a></span>
+        <span><a href="#">Domande frequenti</a></span>
       </div>
       <hr>
     </header>
