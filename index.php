@@ -46,18 +46,11 @@ $faqs = [
       <?php
         foreach ($faqs as $faq) {
       ?>
-          <h1><?php echo $faq["question"]."<br>"?></h1>
-          <?php
-            foreach ($faq as $key => $value) {
-              if ($key=="answer") {
-          ?>
-            <p><?php echo $value."<br>"?></p>
-          <?php
-              }
-            }
+        <h1><?php echo $faq["question"]."<br>"?></h1>
+        <p><?php echo $faq["answer"]."<br>"?></p>
+      <?php
         }
       ?>
-      <h1></h1>
     </div>
   </body>
 </html>
