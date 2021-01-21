@@ -47,7 +47,7 @@ $classe = "question";
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="wrapper-80">
+    <div class="wrapper-50">
       <?php
         foreach ($faqs as $faq) {
       ?>
