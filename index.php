@@ -55,7 +55,7 @@ $classe = "question";
           <span>Privacy e termini</span>
         </div>
         <div class="right">
-          <a href="#"><i class="fas fa-bars"></i></a>
+          <a href="#"><i class="fas fa-th"></i></a>
           <i class="fas fa-user-circle"></i>
         </div>
       </div>
