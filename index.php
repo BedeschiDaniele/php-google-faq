@@ -44,9 +44,30 @@ $classe = "question";
   <head>
     <meta charset="utf-8">
     <title>Google faq</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <header>
+      <div class="header-top">
+        <div class="left">
+          <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="logo-google">
+          <span>Privacy e termini</span>
+        </div>
+        <div class="right">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-user-circle"></i>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <span>Introduzione</span>
+        <span>Norme sulla privacy</span>
+        <span>Termini di servizio</span>
+        <span>Tecnologie</span>
+        <span>Domande frequenti</span>
+      </div>
+      <hr>
+    </header>
     <div class="wrapper-50">
       <?php
         foreach ($faqs as $faq) {

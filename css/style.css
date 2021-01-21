@@ -4,7 +4,41 @@
   margin: 0;
 }
 
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  margin: 0px 50px;
+}
+.left {
+  display: flex;
+  align-items: flex-end;
+}
+.left span {
+  padding-left: 5px;
+  color: #5f6368;
+  font-family: 'Product Sans',Arial,sans-serif;
+  font-size: 22px;
+}
+.right {
+  font-size: 20px;
+}
+.right i:nth-child(1){
+  margin-right: 15px;
+}
+.header-bottom {
+  margin: 20px 0px 10px 50px;
+}
+.header-bottom span {
+  font-family: 'Google Sans',sans-serif;
+  color: #5f6368;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 42px 0 0;
+}
+
 .wrapper-50 {
+  padding-top: 80px;
   width: 50%;
   margin: 0 auto;
 }
@@ -20,4 +54,7 @@ p{
   font-weight: 400;
   margin: 30px 0px;
   line-height: 24px;
+}
+a {
+  text-decoration: none;
 }
